@@ -130,6 +130,11 @@ html {
   scroll-behavior: smooth;
 }
 
+footer {
+  background-color: #1f68b6;
+  padding: 30px;
+}
+
 @media (max-width: 768px) {
   .mobile-menu {
     display: block;

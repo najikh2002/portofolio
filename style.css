@@ -239,7 +239,7 @@ h5 {
 }
 
 footer {
-  background-color: #333;
+  background-color: #1f68b6;
   padding: 30px;
   text-align: center;
 }
@@ -250,6 +250,15 @@ footer small {
 
 html {
   scroll-behavior: smooth;
+}
+
+.certife img {
+  width: 100%;
+  margin: auto;
+}
+
+.col-4 a span {
+  color: black;
 }
 
 @media (max-width: 768px) {
@@ -274,6 +283,10 @@ html {
 
   .col-4 {
     width: 50%;
+  }
+
+  .col-4 a:hover img {
+    transform: none;
   }
 
   .col-3 {
